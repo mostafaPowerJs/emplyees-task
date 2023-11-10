@@ -27,6 +27,10 @@ List the key features and functionalities of your Angular project.
 
 First, you must log in with the following username `mostafahendy34@gmail.com` and the following password `123`
 
+## handling for relocation requests
+
+the list of departments without current department employee and there is condition check the current department is selected to close any modify the list of departments list from console
+
 
 
 
