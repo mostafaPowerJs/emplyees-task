@@ -9,7 +9,7 @@
       "description": "Responsible for selling products and services to customers."
     },
     "skills": "Communication",
-    "performance": "Time-to-Market"
+    "performance": "need improvment"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
       "description": "Responsible for promoting the company's products and services."
     },
     "skills": "Problem Solving",
-    "performance": "Innovation"
+    "performance": "fair"
   },
   {
     "id": 3,
@@ -33,7 +33,7 @@
       "description": "Responsible for managing the company's financial activities."
     },
     "skills": "Teamwork",
-    "performance": "Cost Reduction"
+    "performance": "good"
   },
   {
     "id": 4,
@@ -45,7 +45,7 @@
       "description": "Responsible for managing employee-related activities and policies."
     },
     "skills": "Leadershipv",
-    "performance": "Employee Engagement"
+    "performance": "very good"
   },
   {
     "id": 5,
@@ -57,7 +57,7 @@
       "description": "Responsible for managing the company's technology infrastructure and systems."
     },
     "skills": "Time Management",
-    "performance": "Quality of Work"
+    "performance": "excellent"
   },
   {
     "id": 6,
@@ -69,7 +69,7 @@
       "description": "Responsible for overseeing day-to-day business operations."
     },
     "skills": "Creativity",
-    "performance": "Productivity"
+    "performance": "very good"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
       "description": "Responsible for developing and innovating new products and technologies."
     },
     "skills": "Analytical Thinking",
-    "performance": "Customer Satisfaction"
+    "performance": "excellent"
   },
   {
     "id": 8,
@@ -93,7 +93,7 @@
       "description": "Responsible for providing assistance and support to customers."
     },
     "skills": "Adaptability",
-    "performance": "Sales Growth"
+    "performance": "good"
   }
 ]
 

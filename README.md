@@ -14,14 +14,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Project Overview
 
 It simulates part of the HR workflow to move underperforming employees to departments that need their skills.
