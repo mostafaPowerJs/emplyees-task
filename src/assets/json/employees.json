@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "name": "Derek",
+    "img": "employee1.jpg",
+    "currentDepartment": {
+      "id": 1,
+      "name": "Sales",
+      "description": "Responsible for selling products and services to customers."
+    },
+    "skills": "Communication",
+    "performance": "Time-to-Market"
+  },
+  {
+    "id": 2,
+    "name": "Stephanie",
+    "img": "employee2.jpg",
+    "currentDepartment": {
+      "id": 2,
+      "name": "Marketing",
+      "description": "Responsible for promoting the company's products and services."
+    },
+    "skills": "Problem Solving",
+    "performance": "Innovation"
+  },
+  {
+    "id": 3,
+    "name": "Wayne",
+    "img": "employee3.jpg",
+    "currentDepartment": {
+      "id": 3,
+      "name": "Finance",
+      "description": "Responsible for managing the company's financial activities."
+    },
+    "skills": "Teamwork",
+    "performance": "Cost Reduction"
+  },
+  {
+    "id": 4,
+    "name": "Jill",
+    "img": "employee4.jpg",
+    "currentDepartment": {
+      "id": 4,
+      "name": "Human Resources",
+      "description": "Responsible for managing employee-related activities and policies."
+    },
+    "skills": "Leadershipv",
+    "performance": "Employee Engagement"
+  },
+  {
+    "id": 5,
+    "name": "Harvey",
+    "img": "employee5.jpg",
+    "currentDepartment": {
+      "id": 5,
+      "name": "Information Technology",
+      "description": "Responsible for managing the company's technology infrastructure and systems."
+    },
+    "skills": "Time Management",
+    "performance": "Quality of Work"
+  },
+  {
+    "id": 6,
+    "name": "Erica",
+    "img": "employee6.jpg",
+    "currentDepartment": {
+      "id": 6,
+      "name": "Operations",
+      "description": "Responsible for overseeing day-to-day business operations."
+    },
+    "skills": "Creativity",
+    "performance": "Productivity"
+  },
+  {
+    "id": 7,
+    "name": "Jamie",
+    "img": "employee7.jpg",
+    "currentDepartment": {
+      "id": 7,
+      "name": "Research and Development",
+      "description": "Responsible for developing and innovating new products and technologies."
+    },
+    "skills": "Analytical Thinking",
+    "performance": "Customer Satisfaction"
+  },
+  {
+    "id": 8,
+    "name": "Kelly",
+    "img": "employee8.jpg",
+    "currentDepartment":   {
+      "id": 8,
+      "name": "Customer Support",
+      "description": "Responsible for providing assistance and support to customers."
+    },
+    "skills": "Adaptability",
+    "performance": "Sales Growth"
+  }
+]
+
+

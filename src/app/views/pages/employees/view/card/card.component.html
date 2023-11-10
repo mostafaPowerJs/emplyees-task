@@ -1,0 +1,64 @@
+<div class=" card-employee my-2">
+    <div class="card">
+        <img src="assets/images/employees/{{item.img}}" class="card-img-top" [alt]="item.img">
+        <div class="card-body">
+            <div class="d-flex justify-content-between flex-wrap">
+                <span>Name: {{ item.name }}</span>
+            </div>
+            <div class="d-flex justify-content-between flex-wrap">
+                <span>Department: {{ item.currentDepartment.name }}</span>
+            </div>
+            <div class="d-flex justify-content-between flex-wrap">
+                <span>Skills: {{ item.skills }}</span>
+            </div>
+            <div class="d-flex justify-content-between flex-wrap">
+                <span>Performance: {{ item.performance }}</span>
+            </div>
+            <div class="d-flex justify-content-around flex-wrap mt-4">
+                <button type="button" class="btn btn-outline-info"
+                    (click)="openVerticalCenteredModal(verticalCenteredModal)">Modify</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="example">
+    <ng-template #verticalCenteredModal let-modal>
+        <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">show details</h5>
+            <button type="button" class="btn-close" (click)="modal.close('by: close icon')" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-12 my-2">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control my-2" [value]="item.name" disabled>
+                </div>
+                <div class="col-12 my-2">
+                    <label class="form-label">Departments</label>
+                    <ng-select [items]="availableDepartments" [multiple]="false" [closeOnSelect]="true" [searchable]="true"
+                        bindLabel="name" placeholder="choose departments" [(ngModel)]="selectedDepartment" [ngModelOptions]="{ standalone : true }">
+                    </ng-select>
+                </div>
+                <div class="col-12 my-2">
+                    <label class="form-label">Skills</label>
+                    <input type="text" class="form-control my-2" [value]="item.skills" disabled>
+                </div>
+                <div class="col-12 my-2">
+                    <label class="form-label">Performance</label>
+                    <input type="text" class="form-control my-2" [value]="item.performance" disabled>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between flex-wrap">
+
+            </div>
+            <div class="d-flex justify-content-between flex-wrap">
+                
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" (click)="modal.close('by: close button')">Close</button>
+            <button type="button" class="btn btn-primary" (click)="modal.close('by: save button'); changeDepartment()">Save changes</button>
+        </div>
+    </ng-template>
+</div>

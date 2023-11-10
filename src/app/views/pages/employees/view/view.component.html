@@ -1,0 +1,21 @@
+<nav class="page-breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="javascript:void(0)"> Employees</a></li>
+        <li class="breadcrumb-item active" aria-current="page">View</li>
+    </ol>
+</nav>
+<div class="card">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-6">
+                <label class="form-label">Search and Filter skills and performance</label>
+                <input type="text" class="form-control" [(ngModel)]="searchTerm" (keyup)="search($event)" placeholder="Search and Filter skills and performance">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm-6 col-lg-4" *ngFor="let employee of employees | filter: searchKeys:searchTerm; index as i">
+        <app-card [item]="employee" [item2]="departments" [index]="i"></app-card>
+    </div>
+</div>

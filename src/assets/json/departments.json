@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Sales",
+    "description": "Responsible for selling products and services to customers."
+  },
+  {
+    "id": 2,
+    "name": "Marketing",
+    "description": "Responsible for promoting the company's products and services."
+  },
+  {
+    "id": 3,
+    "name": "Finance",
+    "description": "Responsible for managing the company's financial activities."
+  },
+  {
+    "id": 4,
+    "name": "Human Resources",
+    "description": "Responsible for managing employee-related activities and policies."
+  },
+  {
+    "id": 5,
+    "name": "Information Technology",
+    "description": "Responsible for managing the company's technology infrastructure and systems."
+  },
+  {
+    "id": 6,
+    "name": "Operations",
+    "description": "Responsible for overseeing day-to-day business operations."
+  },
+  {
+    "id": 7,
+    "name": "Research and Development",
+    "description": "Responsible for developing and innovating new products and technologies."
+  },
+  {
+    "id": 8,
+    "name": "Customer Support",
+    "description": "Responsible for providing assistance and support to customers."
+  }
+]
